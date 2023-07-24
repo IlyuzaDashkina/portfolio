@@ -1,0 +1,463 @@
+@media all and (max-width: 1232px) {
+    /*======= header ======*/
+    .header_content {
+        justify-items: center;
+    }
+    .logo {
+        font-size: 9px;
+    }
+    .nav {
+        display: none;
+    }
+    .header_nav_item {
+        display: none;
+    }
+    .number {
+        margin: 0 auto;
+    }
+    /*======= /header ======*/
+
+    /* ========section:hero =====*/
+    .hero__container {
+        margin-left: auto;
+        margin-right: auto;
+    }
+    .hero {
+        padding-left: 18px;
+        padding-right: 18px;
+        display: flex;
+        align-content: center;
+        justify-content: center;
+    }
+    /* ========/section:hero =====*/
+
+    /* ======== completed projects =====*/
+    .completed__projects {
+        height: auto;
+    }
+    .city_nav {
+        display: none;
+    }
+    .second_nav {
+        display: none;
+    }
+    .completed__text{
+        text-align: center;
+        max-width: none;
+    }
+    .completed__inner {
+        flex-direction: column;
+        align-items: center;
+    }
+    .completed__title{
+        padding-top: 10px;
+        margin: 30px 0;
+    }
+    .completed__subtitle {
+        text-align: center;
+        margin: 30px 50px;
+    }
+    .interior_img {
+        flex-direction: column;
+        margin-left: 0;
+    }
+    .mobile__slider_tablet{
+        display: flex;
+        justify-content: space-between;
+        width: 640px;
+        position: relative;
+        top: -242px;
+    }
+
+    .main_information {
+        text-align: left;
+        width: 100%;
+        justify-content: space-around;
+        grid-template-columns: 200px 140px;
+        grid-column-gap: 0;
+        padding-top: 0;
+    }
+    
+    /* ======== section: TYPES OF REPAIR =====*/
+
+    /* ======== section: OUR CLIENTS =====*/
+    .clients_inner {
+        grid-column-gap: 1vw;
+    }
+
+}
+@media screen and (max-width:920px) {
+    .video_image {
+        display: none;
+    }
+    .mobile_online_control {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        margin: 0 auto;
+
+    }
+    .mobile_online {
+        width: 90%;
+    }
+    .online_control_logo {
+        padding-bottom: 3%;
+    }
+    .video_play_mobile {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        position: absolute;
+        width: 50px;
+        height: 50px;
+        border-radius: 50%;
+        background: #E3B873;
+        box-shadow: 0px 5px 30px rgba(227, 184, 115, 0.2);
+    }
+    .play_image_mobile {
+        width: 15px;
+    }
+    
+        /* ======== section: types of repair =====*/
+        .types_title {
+            margin-top: 10%;
+        }
+        .types_inner {
+            grid-template-columns: none;
+        }
+        .types_block_main {
+            margin-bottom: 35vw;
+        }
+        .white_block {
+            margin: -127px 0 31px;
+        }
+        
+        .types_addition {
+            display: none;
+        }
+        .types_of_interiors {
+            display: none;
+        }
+        .our_clients {
+            display: none;
+        }
+
+        /* ======== /section: types of repair =====*/
+
+        /* ======== /section: fantasies mobile =====*/
+        .fantasies_mobile {
+            display: inherit;
+        }
+        .fantasies_title {
+            font-family: 'Yeseva One';
+            font-size: 22px;
+            font-weight: 400;
+            text-align: center;
+            color: #E3B873;
+            text-transform: uppercase;
+            margin: 0 auto;
+            width: 50vw;
+            padding-bottom: 2vh;
+            padding-top: 3vh;
+
+        }
+        .fantasies_image {
+            width: 90vw;
+            position: relative;
+            z-index: 1;
+            margin: 0 auto;
+            display: flex;
+            align-items: center;
+            justify-items: center;
+            margin-bottom: -20%;
+        }
+        .last_section {
+            width: 100%;
+            height: 100%;
+            background-color: #131313;
+            background-image: none;
+        }
+        .questions_block {
+            display: flex;
+            flex-flow: wrap;
+            padding: 24px 16px;
+            min-width: 100%;
+            min-height: 100%;
+            position: relative;
+            margin-top: 0;
+            height: auto;
+        }
+        .questions_block_title {
+            margin: 0 auto;
+            padding-top: 20%;
+        }
+        .submition_questions_block, .submition_questions_block_input, .submition_questions_block, .submition_questions_block_input, .questions_add_information, .submition_questions_block_input, .submition_questions_block_button {
+            width: 100%;
+        }
+        .questions_block_form {
+            grid-template-areas:"N"
+                                "G"
+                                "T"
+                                "L"
+                                "Q"
+                                "Z";
+            grid-template-columns: none;
+            width: 100%;
+            margin-top: 2vw;
+        }
+        .questions_add_information, .submition_questions_block {
+            margin-top: 3vw;
+        }
+
+        .map_image {
+            width: 100%;
+        }
+        .change_the_order {
+            display: flex;
+            flex-flow: wrap;
+        }
+
+        .map_image, .last_block_title, .last_logo {
+            width: 100%;
+        }
+        .map_image {
+            order: 1;
+        }
+        .last_block_title {
+            order: 2;
+            margin-top: 5vw;
+            text-align: center;
+            line-height: 20px;
+            position: relative;
+            padding: 0;
+        }
+        .last_logo {
+            order: 3;
+            padding: 5vw;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            margin: 0 auto;
+
+        }
+
+        .third_rectangle_overlay {
+            display: none;
+        }
+        .footer__nav {
+            display: none;
+        }
+}
+
+
+
+@media screen and (max-width: 768px) {
+    /* ========section:hero =====*/
+    .first__button {
+        width: 100%;
+    }
+    .button__transparent {
+        width: 100%;
+    }
+    /* ========/section:hero =====*/
+
+    /* ======== section: completed projects =====*/
+    .completed__title {
+        font-size: 22px;
+    }
+    .completed__subtitle {
+        font-size: 11px;
+        height: 56px;
+        padding-top: 10px;
+    }
+    .interior_img {
+        display: none;
+    }
+    .interoir_img_mobile {
+
+        display: inherit;
+        width: 550px;
+        margin: 0 auto;
+    }
+    .mobile__slider_tablet {
+        display: none;
+    }
+    .main_information {
+        padding-top: 30px;
+    }
+
+    /* ======== /completed projects =====*/
+
+    /* ======== section:online control =====*/
+    .normal__container {
+        margin: 0;
+    }
+    .online_control {
+        background-color: #131313;
+    }
+    .control_title {
+        margin-top: 40px;
+    }
+    .online_control_text {
+        color: #fff;
+        font-size: 15px;
+        line-height: 18px;
+        height: 80px;
+
+    }
+    .hr_line {
+        margin: 22px 0;
+    }
+    .first_form_block {
+        grid-template-areas:"A"
+                            "B"
+                            "C"
+                            "D"
+                            "F";
+        width: 100%;
+        display: flex;
+        flex-flow: wrap;
+        margin: 3vw 0 3vw 0;
+
+    }
+    .submition_name, .submition_input_name, .submition_phone, .submition_input_number, .first-checkbox-mobile, .submit_button {
+        width: 100%;
+    }
+    .submition_name, .submition_phone {
+        color: #FFFFFF80;
+        font-size: 13px;
+        font-weight: 400;
+    }
+    .submition_input_name, .submition_input_number {
+        background-color: #131313;
+    }
+    .submition_input_name::placeholder {
+        color: #FFFFFF;
+    }
+    .submition_input_number::placeholder {
+        color: #FFFFFF;
+    }
+    .submition_input_name {
+        padding-bottom: 4vw;
+    }
+    .submition_input_number {
+        padding-bottom: 4vw;
+    }
+    .first-checkbox-mobile {
+        display: inherit;
+        order: 1;
+        padding-bottom: 4vw;
+    }
+    .first-checkbox-online{
+        display: none;
+    }
+    .text {
+        color: #fff;
+    }
+    .submit_button {
+        margin: 0 auto;
+        width: 95%;
+        order: 2;
+    }
+    /* ======== /section:online control =====*/
+
+
+}
+
+
+
+@media screen and (max-width: 575px) {
+    /*======= header ======*/
+    .header_content {
+        justify-items: flex-end;
+    }
+    .number {
+        margin-right: 18px;
+        color: #fff;
+    }
+    .button_request{
+        display: none;
+    }
+    /*======= /header ======*/
+
+    /* ========section:hero =====*/
+    .button_hero{
+        display: flex;
+        flex-direction: column;
+        padding-top: 32px;
+        width: 100%;
+    
+    }
+    .hero {
+        background-image: url('images/First_mobile.png');
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-position: center;
+        padding-top: 85px;
+        height: 391px;
+    }
+    .hero__container {
+        justify-content: center;
+        align-content: center;
+        padding-bottom: 61px;
+    }
+    .title {
+        font-size: 23px;
+        line-height: 30px;
+    }
+    .subtitle {
+        font-size: 14px;
+        line-height: 19px;
+    }
+    .first__button {
+        width: 100%;
+        margin-bottom: 26px;
+    }
+    .button__transparent {
+        width: 100%;
+        margin: 0;
+    }
+    /* ========section:hero =====*/
+
+    /* ======== completed projects =====*/
+    .completed__subtitle {
+        padding-top: 0;
+    }
+    .interoir_img_mobile {
+        width: 340px;
+    }
+    .main_information {
+        padding-top: 25px;
+        justify-content: center;
+    }
+
+    .apartment_title {
+        font-size: 14px;
+    }
+    .apartment_subtitle {
+        font-size: 11px;
+    }
+
+    /* ======== /completed projects =====*/
+
+        /* ======== section:online control =====*/
+    .control_title {
+        margin-top: 10px;
+    }
+    .online_control_text {
+        max-width: 340px;
+        font-size: 11px;
+    }
+
+
+
+    .fantasies_title {
+        padding-top: 20vw;
+        width: 60vw;
+    }
+    .last_block_title {
+        font-size: 11px;
+    }
+
+}
